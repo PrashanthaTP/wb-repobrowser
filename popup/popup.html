@@ -6,15 +6,18 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="popup.css"/>
         <title>Repo Browser</title>
+        <script src="popup.js" type="module" defer> </script>
     </head>
     <body>
         <section>
             <h1>Repo Browser</h1>
             <form>
                 <input id="query-input" type="text"/>
-                <ul>
-                    <li> 
-                </ul>
+                <template id="template-li">
+                    <li class-name="string-item"> 
+                    </li>
+                </template>
+                <ul id="strings-ul"></ul>
             </form>
         </section>
     </body>
