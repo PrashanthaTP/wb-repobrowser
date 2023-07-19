@@ -1,3 +1,5 @@
+import "../lib/fuzzy.js"
+
 const templateListItem = document.querySelector("#template-li")
 const stringsUl = document.querySelector("#strings-ul")
 let listItems = ["aytala","macha"]
