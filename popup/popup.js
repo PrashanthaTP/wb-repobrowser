@@ -17,6 +17,7 @@ const getListItem = (string) => {
 
 
 const init = () => {
+    queryInput.focus()
     for (let string of listItems) {
         stringsUl.appendChild(getListItem(string))
     }
